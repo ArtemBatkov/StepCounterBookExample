@@ -85,7 +85,7 @@ public class Coordinator extends AppCompatActivity {
         //Gods for various apps. Most functions of apps must be rely for System Services.
 
         sensor = sManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);//TYPE_STEP_COUNTER
-        //This method is used to get the default sensor for a given type
+        //This method is used to get the default sensor for a given type //1234
 
         if(sManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER) == null){
             Toast.makeText(this, "NO STEP SENSOR",Toast.LENGTH_SHORT);
